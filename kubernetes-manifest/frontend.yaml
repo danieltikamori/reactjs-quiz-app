@@ -25,7 +25,7 @@ spec:
         image: wiseruler/frontend-js:latest
         env:
         - name: VITE_REACT_APP_API_URL
-          value: "http://quizapp.megumi.cc/api/questions"
+          value: "http://quizapp.amlu.me/api/questions"
         ports:
         - containerPort: 8080
 ---
